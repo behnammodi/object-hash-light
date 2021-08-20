@@ -1,0 +1,29 @@
+{
+  "name": "object-hash-light",
+  "version": "0.0.0",
+  "description": "Generate hashes from objects and values in modern browser",
+  "main": "./hash.js",
+  "scripts": {
+    "build": "tsc",
+    "preversion": "npm run build",
+    "postversion": "npm publish && git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/behnammodi/object-hash-light.git"
+  },
+  "keywords": [
+    "object",
+    "hash",
+    "sha1",
+    "sha256",
+    "sha384",
+    "sha512"
+  ],
+  "author": "Behnam Mohammadi itten@live.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/behnammodi/object-hash-light/issues"
+  },
+  "homepage": "https://github.com/behnammodi/object-hash-light#readme"
+}
