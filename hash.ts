@@ -8,8 +8,8 @@ async function hash(
   data: any,
   option: Option = { algorithm: "SHA-1" }
 ): Promise<string> {
-  const msgUint8 = new TextEncoder().encode(JSON.stringify(data));
-  const buffer = await crypto.subtle.digest(option.algorithm, msgUint8);
+  const uint8 = new TextEncoder().encode(JSON.stringify(data));
+  const buffer = await crypto.subtle.digest(option.algorithm, uint8);
   const hex = Array.from(new Uint8Array(buffer))
     .map((b) => b.toString(16).padStart(2, "0"))
     .join("");
