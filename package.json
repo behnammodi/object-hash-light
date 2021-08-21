@@ -1,6 +1,6 @@
 {
   "name": "object-hash-light",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate hashes from objects and values in modern browser",
   "main": "./hash.js",
   "scripts": {
