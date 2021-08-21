@@ -2,7 +2,7 @@
 
 Generate hashes from objects and values in modern browser
 
-Less than < <b>300</b> Byte [bundlephobia](https://bundlephobia.com/package/object-hash-light)
+Less than < <b>300</b> Bytes [bundlephobia](https://bundlephobia.com/package/object-hash-light)
 
 # install
 
