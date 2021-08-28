@@ -1,5 +1,9 @@
+node_modules
+
 hash.ts
 
 README.md
+
+test.js
 
 tsconfig.json

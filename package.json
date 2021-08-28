@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/behnammodi/object-hash-light/issues"
   },
-  "homepage": "https://github.com/behnammodi/object-hash-light#readme"
+  "homepage": "https://github.com/behnammodi/object-hash-light#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.4"
+  }
 }
