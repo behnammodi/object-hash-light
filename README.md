@@ -5,6 +5,7 @@ Generate hashes from objects and values in modern browser, node and deno
 | Node | Deno | Chrome | Firefox | Opera | Safari |
 | ---- | ---- | ------ | ------- | ----- | ------ |
 | 15   | 1.11 | 37     | 34      | 24    | 7      |
+|      |      |        |         |       |        |
 
 Less than < <b>300</b> Bytes [bundlephobia](https://bundlephobia.com/package/object-hash-light)
 
